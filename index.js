@@ -8,6 +8,10 @@ inputs.forEach((input) => {
     if (e.target.value !== "") {
       const userInput = +e.target.value;
       getConverteduserInput(e.target, userInput);
+    } else {
+      [celsiusEl, fehrenheitEl, kelvinEl].map((e) => {
+        e.value = "";
+      });
     }
   });
 });
