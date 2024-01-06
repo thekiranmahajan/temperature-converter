@@ -75,8 +75,11 @@ body {
   background-color: transparent;
   margin: 10px;
   width: 50%;
+  color: white;
 }
-
+.inputContainer label input::placeholder {
+  color: rgba(255, 255, 255, 0.707);
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
